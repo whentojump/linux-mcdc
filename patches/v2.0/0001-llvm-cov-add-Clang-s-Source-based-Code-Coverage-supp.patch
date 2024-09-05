@@ -1,8 +1,7 @@
-From 13c86fc7877aec4892832554845968d7415f2960 Mon Sep 17 00:00:00 2001
+From c16d65ce9990024c85337361ed79ad014762ca1b Mon Sep 17 00:00:00 2001
 From: Wentao Zhang <wentaoz5@illinois.edu>
 Date: Fri, 30 Aug 2024 14:48:03 -0500
-Subject: [PATCH v2 1/4] llvm-cov: add Clang's Source-based Code Coverage
- support
+Subject: [PATCH 1/4] llvm-cov: add Clang's Source-based Code Coverage support
 
 Add infrastructure to support Clang's source-based code coverage [1]. This
 includes debugfs entries for serializing profiles and resetting

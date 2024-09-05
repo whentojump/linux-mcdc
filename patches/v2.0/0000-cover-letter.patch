@@ -1,7 +1,7 @@
-From 7c60851daae39815fa696fc2265e838b1913f7ac Mon Sep 17 00:00:00 2001
-From: Wentao Zhang <zhangwt1997@gmail.com>
-Date: Wed, 4 Sep 2024 18:13:07 -0500
-Subject: [PATCH v2 0/4] Enable measuring the kernel's Source-based Code Coverage and MC/DC with Clang
+From de6410a69531a3a7f0466922f365334e4a6b8c6b Mon Sep 17 00:00:00 2001
+From: Wentao Zhang <wentaoz5@illinois.edu>
+Date: Thu, 5 Sep 2024 16:18:34 -0500
+Subject: [PATCH 0/4] Enable measuring the kernel's Source-based Code Coverage and MC/DC with Clang
 
 This series adds support for building x86-64 kernels with Clang's Source-
 based Code Coverage[1] in order to facilitate Modified Condition/Decision

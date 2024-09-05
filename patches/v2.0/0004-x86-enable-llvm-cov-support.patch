@@ -1,7 +1,7 @@
-From 7c60851daae39815fa696fc2265e838b1913f7ac Mon Sep 17 00:00:00 2001
+From de6410a69531a3a7f0466922f365334e4a6b8c6b Mon Sep 17 00:00:00 2001
 From: Wentao Zhang <wentaoz5@illinois.edu>
 Date: Fri, 30 Aug 2024 14:49:06 -0500
-Subject: [PATCH v2 4/4] x86: enable llvm-cov support
+Subject: [PATCH 4/4] x86: enable llvm-cov support
 
 Set ARCH_HAS_* options to "y" in kconfig and include section description in
 linker script.
